@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rupali Shah Portfolio</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sanchez">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" >
+    <div class="container-fluid ">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> 
+                    <a class="navbar-brand" href="#">Rupali Shah
+                </div>    
+                <ul class="nav navbar-nav navbar-right" id="Navigation2">
+                    <li> <a id="projects" href="#projects-id" target="_self">Projects</a></li>
+                    <li> <a id="about" href="#about-id" target="_self">About</a></li>
+                    <li> <a id="contact" href="#contact-id" target="_self">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="jumbotron" style="background-color:rgba(194, 166, 166, 0.377)">            
+            <div id="heading">
+                <br><h3 id="name">I'm Rupali</h3> 
+                <h5 id="desc"> Data Enthusiast | Data Analyst | ScrumMaster</h4>
+            </div>
+        </div>
+    </div>    
+    <br>
+
+    <div class="container-fluid" id="projects-id">
+        <div class="row" id="projects">
+            <div class="col-md-5 col-lg-5 col-md-offset-0.5 text-center">
+                <h3>Image Recognition and Classification</h3><hr>
+                <p>This project uses Image Recognition to classify randomly selected images. ConvNet models, 
+                    VGG19 and Xception, are trained using a new dataset. 
+                    The trained model with the best result (Xception) is used to classify images.   
+                </p>
+            </div>
+            <br><br><br>
+            <div class="col-md-5 col-lg-5">
+                <a href="https://github.com/RupaliShah/AutoPhotoLibrary">
+                    <img class="img-responsive" height="75" width="250"
+                    src="images/classification.png">  
+                </a>
+            </div>     
+        </div>    
+        <br>            
+                  
+        <div class="row" id="projects">
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 col-md-offset-0.5 text-center">
+                <h3>Mission to Mars</h3><hr>  
+                <p>
+                    This web application scrapes various websites related to the Mission to Mars for data 
+                    such as Mars News, Images, Facts, and Tweets.
+                </p>
+            </div> 
+            <br><br><br>
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <a href="https://github.com/RupaliShah/Mission_to_Mars">
+                    <img class="img-responsive" height="200" width="250"
+                    src="images/mission_to_mars.jpg"alt="Mars Featured Image, Facts and News">
+                </a>
+            </div>
+        </div>
+        <br>
+
+        <div class="row" id="projects"></div>
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 col-md-offset-0.5 col-lg-offset-0.5 text-center">
+                <h3>University Selector</h3><hr>
+                <p>
+                    This project explores admission criteria such as tuition in-state and out-of-state, 
+                    acceptance rate, location, financial aid, and more 
+                    to help students determine the best fit.
+                </p>
+            </div>  
+            <br><br><br>
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5">
+                <a href="https://github.com/debbiechanca/university_selector">
+                    <img class="img-responsive" height="200" width="250"
+                    src="images/higher_ed.jpg" alt="Higher Education">
+                </a>
+            </div>
+        </div> 
+    </div>
+    <br><br>
+
+    <div class="container-fluid" id="contact-id">
+        <div class="jumbotron" style="background-color:rgba(194, 166, 166, 0.377)">
+            <div class="row">
+                <div class="col-md-1 col-md-offset-9 text-center">
+                    <a href="https://github.com/RupaliShah"><i class="fa fa-github fa-3x wow bounceIn"></i></a>
+                </div>
+                <div class="col-md-1 text-center">
+                    <a href="https://www.linkedin.com/in/rupalishah" class="fa fa-linkedin fa-3x wow bounceIn"></a>
+                </div>
+                <div class="col-md-1 text-center">
+                    <a href="mailto:shah.rupali1@gmail.com" class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></a>
+                </div>
+            </div>
+        </div>  
+    </div>        
+</div>
+</body>    
+   
+

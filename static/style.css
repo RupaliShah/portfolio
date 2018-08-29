@@ -1,0 +1,61 @@
+
+	.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #007bb5;
+	  color: #fff;
+	}
+
+	.h3{
+		align-self:auto;
+		font-size:15px;
+	}
+	
+	/* .jumbotron.jumbotron-blue {
+		background: #7986CB;
+		color: blue;
+		padding: 70px 30px;
+		margin: 0;
+	}
+	.jumbotron.jumbotron-blue h3 {
+		margin: 0;
+	}
+	.heading-paragraph {
+		padding-top: 70px;
+		margin: 0;
+	} */
+
+
+#heading{
+	display:flex;
+	/* justify-content: space-between; */
+	margin-top:3%;
+	margin-right:3%;
+	text-align:left;
+}
+#name{
+	margin-left:5%;
+	font-family:sans-serif;
+}
+
+#desc{
+	 margin-left:3%;
+	 margin-top:2%;  
+}
+
+#projects{
+	padding-left:40px;
+	padding-right:40px;
+} 
+
+hr{
+	border:1px solid rgba(194, 166, 166, 0.377);
+}
+ 
